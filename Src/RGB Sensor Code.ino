@@ -1,9 +1,5 @@
 /* Author: Salvatore F DeLuca 
- * Date: April 20, 2025
- * 
- * Notes:
- * 
- * Code for stage 4 bot (RGB Sensor)
+ * Date of Creation: April 20, 2025
  * 
  * Wiring pinout:
  * Right servo : pin 12
@@ -196,3 +192,4 @@ long DistanceREAD() {
 
   return distance;
 }
+
