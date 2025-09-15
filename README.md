@@ -1,35 +1,30 @@
-How the Bot Works
+<h1>RGB_Controlled_Mini_Ground_Bot_Vehicle</h1>
 
-RGB Sensor: The bot sequentially shines each of the three RGB LEDs onto a colored surface. The photocell detects the reflected light intensity for each color. When the color is similar to the light produced from the RGB LED the colored surface will absorb most of the light and return a smaller reading. The bot uses this theory to determine the color of the card and acts accordingly.
+<h2>Description</h2>
+This project features an Arduino mini bot, which integrates multiple components to showcase embedded systems in action. Using an RGB sensor, it detects colored cards by measuring reflected light, assigning movement commands such as reverse, forward, right, left, or stop. An ultrasonic sensor adds obstacle avoidance, halting the bot when objects are too close. Driven by non-continuous servos and Arduino code, the system demonstrates real-time sensing, decision-making, and actuation working together within a compact robotic platform.
+<br />
 
-Color Response:
+<h2>Languages and Utilities Used</h2>
 
-Red card → Reverse
+- <b>Arduino IDE</b> 
+- <b>Arduino UNO R4 Microcontroller Board</b>
 
-Green card → Forward
+<h2>Environments Used </h2>
 
-Blue card → Turn Right
+- <b>Windows 11</b> (21H2)
 
-Yellow card → Turn left
+<h2>Program walk-through:</h2>
 
-Purple card → Stop
-
-#When the bot does not detect a color, it stops. This is mainly just a precaution to make the mechanism safer. This can be changed b adjusting the max value in the code as readings will be different depending on lighting enviornment.
-
-Ultrasonic Sensor: The HC-SR04 module checks for obstacles in the bot's path. If an object is too close, the bot stops to prevent collisions.
-
-Non-Continuous Servos: The bot utilizes non-continuous servos to move efficiently and can be mounted onto a chassis.
-
-Getting Started
-
-Build the circuit (refer to Wiring diagram in /docs folder).
-
-Upload the Arduino code from /src/RGB_Sensor_Code.ino.
-
-Place colored cards in the robot's path.
-
-Power on the bot using a battery box or plugged in power
-
-A demo video is available in the /docs folder for viewing 
-
-Note: This bot is for educational and viewing purposes only; however, if you would like to make iterations or fork designs from the bot, feel free to.
+<p align="center">
+Wiring guide for custom RGB sensor: <br/>
+<img src="https://i.imgur.com/fb9UuzN.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sample photos of Arduino mini bot (pre-RGB sensor installment):  <br/>
+<img src="https://i.imgur.com/nZKINic.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/GGJQIzz.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/MdL4lTe.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
