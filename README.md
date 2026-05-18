@@ -78,15 +78,6 @@ This creates a hybrid control system combining:
   <img src="https://i.imgur.com/MdL4lTe.jpeg" width="80%">
 </p>
 
-## Engineering Concepts Demonstrated
-
-- Embedded systems programming
-- Sensor fusion (RGB + ultrasonic)
-- Real-time control loops
-- Hardware-software integration
-- Actuator control via PWM signals
-- State-based decision logic
-
 ## Future Improvements
 
 - Replace RGB sensor with calibrated TCS34725 module for higher accuracy
