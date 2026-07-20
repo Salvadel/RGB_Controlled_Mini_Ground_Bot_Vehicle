@@ -78,11 +78,16 @@ This creates a hybrid control system combining:
   <img src="https://i.imgur.com/MdL4lTe.jpeg" width="80%">
 </p>
 
+### Final Robot Platform (After Sensor Integration)
+
+<video src="docs/RGB Sensor Ground Bot Demo Video.mp4" controls width="640" height="360">
+</video>
+
 ## Future Improvements
 
 - Replace RGB sensor with calibrated TCS34725 module for higher accuracy
 - Add wireless control (Bluetooth or RF module)
-- Implement path memory / mapping behavior
+- Implement path memory/mapping behavior
 - Upgrade to PID-controlled movement stability
 - Add LED status feedback system (system state indicator)
 - Improve chassis for better torque and stability
