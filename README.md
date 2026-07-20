@@ -80,8 +80,7 @@ This creates a hybrid control system combining:
 
 ### Final Robot Platform (After Sensor Integration)
 
-<video src="docs/RGB-Sensor-Ground-Bot-Demo-Video.mp4" controls width="640" height="360">
-</video>
+[Link to Video File found Here](/docs/RGB-Sensor-Ground-Bot-Demo-Video.mp4)
 
 ## Future Improvements
 
